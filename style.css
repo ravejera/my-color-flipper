@@ -1,0 +1,44 @@
+/* styling the body background */
+body{
+    background-size: cover;
+    background-color: aliceblue;
+    /* width: 100%; */
+    max-width: 100%;
+    /* width: 100%; */
+}
+/* styling the header parent */
+.main{
+    background-color: white;
+    padding: 8px;
+    margin: 0;
+    width: auto;
+}
+/* styling the header child */
+.header{
+    text-align: center;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(85, 17, 148);
+}
+/* styling the button section */
+.container{
+    display: flexbox;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.container h2{
+    font-size: 40px;
+    color: black;
+    
+}
+.container button{
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: black;
+}
+.container .btn{
+    color: white;
+    font-size: 20px;
+}
